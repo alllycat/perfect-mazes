@@ -13,7 +13,9 @@ A python program that makes use of several algorithms to generate an n*n **perfe
 * Perfect Maze is created based on START, END and KEY points
 * **PATH POINTS** are then generated
 
-####Maze(13) (13*13 perfect maze)
+####Maze(7) - (7*7 perfect maze)
+![](http://i.imgur.com/tqdzBui.png)
+####Maze(13) - (13*13 perfect maze)
 ![](http://i.imgur.com/J0AceiH.png)
 
 ### ** THINGS TO NOTE: ** 
@@ -21,5 +23,3 @@ A python program that makes use of several algorithms to generate an n*n **perfe
 * 1) The stack operations and maze objects are all defined under the Maze class, therefore there is no myStack class
 * 2) There is ALWAYS a defined singular path to the exit, however, sometimes blue path squares are not drawn on all of the cells and sometimes skips squares or sections. But do know that there are NO circles in the maze and there is always a clear path from start to finish with a key along the way (you can always trace the singular path if you look for it)
 
-####Maze(7) (7*7 perfect maze)
-![](http://i.imgur.com/tqdzBui.png)
