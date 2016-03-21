@@ -1,9 +1,16 @@
-# perfect-mazes 
+# Perfect-Mazes
 ###Intro to CS Class Final Project
 
-A python program that makes use of several algorithms to generate a **perfect maze** of n*n. Generates a **START** (green) / **END** POINT (red), A **KEY** (yellow) that must be picked up before reaching the end point, and a **list of co-ordinates** for the **path** (blue) followed.
+A python program that makes use of several algorithms to generate a **perfect maze** of n times n. 
 
 * **Perfect Maze**: one without any loops or closed circuits, and without any inaccessible areas. Also called a simply-connected Maze. From each point, there is exactly one path to any other point. The Maze has exactly one solution. In Computer Science terms, such a Maze can be described as a spanning tree over the set of cells or vertices.
+
+* User calls **Maze(n)** function
+* Program generates a maze with dimensions **n by n**
+* Generates a **START** (green) / **END** POINT (red)
+* A **KEY** (yellow) must be picked up before reaching the end point
+* Generates a **path** (blue) from start to end points while picking up the key
+* Prints out a **list of co-ordinates** for the **path** (blue)
 
 ![](http://i.imgur.com/0ocBxyT.png)
 
